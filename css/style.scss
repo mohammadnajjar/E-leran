@@ -1,0 +1,22 @@
+@import "vars";
+@import "utilities";
+@import "buttons";
+@import "hdnav";
+@import "skills";
+@import "categorie";
+@import "2page";
+@import "table";
+img {
+  width: 100%;
+}
+
+/* start footer */
+footer {
+  text-align: center;
+  color: #6f8080;
+  background: #000;
+  font-size: 18px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+/* end footer */

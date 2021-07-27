@@ -1,0 +1,22 @@
+
+/* start cat */
+.cat {
+    width: 95%;
+    margin: auto;
+    background: #eeeeee;
+    color: #444444;
+    @extend %box-shadow;
+    padding: 20px 50px 20px 50px;
+    margin-top: 20px;
+  }
+  .cat .list {
+    list-style: none;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  .cat .list .title {
+    font-size: 19px;
+    margin-bottom: 11px;
+    margin-left: -28px;
+  }
+  /* end cat */

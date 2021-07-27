@@ -1,0 +1,19 @@
+/* 2page  */
+.skills .cards .fucard {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 60px;
+  }
+  .skills .cards .fucard .imago {
+    position: absolute;
+    top: 0;
+    left: 42%;
+    transform: translate(0, -50%);
+  }
+  .fufooter {
+    background: #eeeeee;
+    margin: auto;
+    @extend %box-shadow;
+    border: 0;
+  }
+  

@@ -1,0 +1,65 @@
+
+/* start skills */
+.skills {
+    border-top: 5px solid #3d84e6;
+    @extend %box-shadow;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .skills .cards,
+  .new-course .items,
+  .cat .items {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .skills .cards .card {
+    position: relative;
+    width: 25%;
+    @extend %box-shadow;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    padding-bottom: 30px;
+  }
+  .skills .cards .card .imago {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translate(0, -50%);
+  }
+  .skills .cards .card .title {
+    padding-top: 64px;
+    text-transform: capitalize;
+  }
+  .skills .cards .card .para {
+    margin-top: 25px;
+    padding: 4px;
+    line-height: 1.4;
+    font-size: 17px;
+  }
+  .skills .cards .card a {
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+    font-style: italic;
+  }
+  /* end skills */
+  /* start new-course*/
+.new-course {
+    margin-top: 5%;
+    @extend %box-shadow;
+    padding: 20px;
+  }
+  .new-course .items .item .title {
+    font-size: 32px;
+    text-transform: capitalize;
+    padding: 20px 0;
+  }
+  .new-course .items .item .name {
+    text-transform: capitalize;
+    padding: 20px 0;
+  }
+  /* end new-course */
